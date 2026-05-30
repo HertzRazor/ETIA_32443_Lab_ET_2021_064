@@ -1,10 +1,10 @@
-#define F_CPU 16000000UL
+
 
 #include <Arduino.h>      
 #include <avr/io.h>
 #include <util/delay.h>
 
-int main(void)
+int pir(void)
 {
     init();
 

@@ -1,6 +1,6 @@
 #include <avr/io.h>
 
-int main(void)
+int activity03(void)
 {
     DDRB |= (1 << DDB0);
 

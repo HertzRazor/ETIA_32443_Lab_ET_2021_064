@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-int main(void)
+int activity01(void)
 {
 
     DDRB |= (1 << DDB0);
