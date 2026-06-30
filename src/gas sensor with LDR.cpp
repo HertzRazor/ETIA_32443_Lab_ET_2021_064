@@ -31,7 +31,7 @@ uint16_t ADC_Read(uint8_t channel)
     return ((uint16_t)highByte << 8) | lowByte;   // Combine into 10-bit result
 }
 
-int fsmc_main(void)
+int lab6_main(void)
 {
     uint16_t ldrValue;
     uint16_t potValue;
